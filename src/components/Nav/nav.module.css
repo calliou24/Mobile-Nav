@@ -63,7 +63,7 @@
 }
 
 .hamburger {
-    height: 30px;
+    height: 32px;
     width: 30px;
     position: absolute;
     display: grid;
@@ -72,6 +72,7 @@
     top: 0;
     overflow: hidden;
     display:none;
+    cursor:pointer;
 }
 
 #bar {
@@ -79,6 +80,7 @@
     height: 33.3%;
     width: 100%;
     transition: all .6s;
+    border-radius: 30px;
 }
 
 
@@ -89,7 +91,7 @@
     transform: translateX(50px);
 }   
 .op3 {
-    transform: rotate(-45deg)  translateX(3px) translateY(-6px);
+    transform: rotate(-45deg)  translateX(5px) translateY(-6px);
 }
 
 
